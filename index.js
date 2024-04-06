@@ -85,9 +85,12 @@ const products = [
   },
 ];
 
-const productsItem = document.getElementById("phone");
-for (let i = 0; i < products.length; i++) {
-  productsItem.innerHTML += `<div class="product-wrapper col-3">
+const FPSItem = document.getElementById("fps");
+const SandboxItem = document.getElementById("sandbox");
+const ActionItem = document.getElementById("action");
+
+for (let i = 0; i < 4; i++) {
+  FPSItem.innerHTML += `<div class="product-wrapper col-3">
     <div class="product">
       <a href="./product/product.html">
         <img src="${products[i].Img}" alt="" class="product-img" />
@@ -108,4 +111,47 @@ for (let i = 0; i < products.length; i++) {
     </div>
   </div>`;
 }
-console.log("");
+for (let i = 4; i < 8; i++) {
+  SandboxItem.innerHTML += `<div class="product-wrapper col-3">
+      <div class="product">
+        <a href="./product/product.html">
+          <img src="${products[i].Img}" alt="" class="product-img" />
+        </a>
+        <a href="./product/product.html" class="product-name">
+          <h4>${products[i].ProductName}</h4>
+          <div class="rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </a>
+        <span class="product-price">${products[i].Price} </span>
+        <s class="old-price">${products[i].OriginalPrice} </s>
+        <span class="discount">${products[i].Discount}</span>
+      </div>
+    </div>`;
+}
+for (let i = 8; i < 12; i++) {
+  ActionItem.innerHTML += `<div class="product-wrapper col-3">
+      <div class="product">
+        <a href="./product/product.html">
+          <img src="${products[i].Img}" alt="" class="product-img" />
+        </a>
+        <a href="./product/product.html" class="product-name">
+          <h4>${products[i].ProductName}</h4>
+          <div class="rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </a>
+        <span class="product-price">${products[i].Price} </span>
+        <s class="old-price">${products[i].OriginalPrice} </s>
+        <span class="discount">${products[i].Discount}</span>
+      </div>
+    </div>`;
+}
