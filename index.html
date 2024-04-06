@@ -3,7 +3,485 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top my-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand brand-name" href="#"
+          >SHOPGAME.NET <i class="fa-solid fa-gamepad"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#phone"
+                >FPS <i class="fa-solid fa-crosshairs"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#tablet"
+                >Sandbox <i class="fa-solid fa-cubes"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#laptop"
+                >Action <i class="fa-solid fa-explosion"></i
+              ></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Genres
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Horror</a></li>
+                <li><a class="dropdown-item" href="#">Puzzle</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Fighting</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Platformer</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Turn based</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Tower defense</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Adventure</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Immersive</a>
+                </li>
+                <li><a class="dropdown-item" href="#">RPG</a></li>
+                <li><a class="dropdown-item" href="#">Racing</a></li>
+                <!-- <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li> -->
+              </ul>
+            </li>
+            <li class="nav-item"></li>
+          </ul>
+          <div class="ms-auto">
+            <a class="nav-link login" href="./login/login.html"
+              ><i class="fa-solid fa-user-plus"></i
+            ></a>
+          </div>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- <i class="fa-solid fa-gear"></i>
+    <button class="btn btn-outline-primary">bruh</button>
+    <p class="pb-4">test</p> -->
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide my-slider"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <!-- height: 100% -->
+      <div class="carousel-inner h-100">
+        <div class="carousel-item h-100 active">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Call Of Duty: Modern Warfare 3</h5>
+            <p>
+              In the direct sequel to the record-breaking Call of Duty®: Modern
+              Warfare® II, Captain Price and Task Force 141 face off against the
+              ultimate threat.
+            </p>
+          </div>
+          <img
+            src="./images/codmw3.jpg"
+            class="d-block w-100 h-100 object-fit-cover"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item h-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Minecraft</h5>
+            <p>
+              Explore your own unique world, survive the night, and create
+              anything you can imagine!
+            </p>
+          </div>
+          <img
+            src="./images/m.webp"
+            class="d-block w-100 h-100 object-fit-cover"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item h-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Geometry Dash</h5>
+            <p class="description">
+              Jump and fly your way through danger in this rhythm-based action
+              platformer!
+            </p>
+          </div>
+          <img
+            src="./images/got.webp"
+            class="d-block w-100 h-100 object-fit-cover"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="main">
+      <div id="phone">
+        <h5 class="FPS">FPS Games</h5>
+        <div class="row">
+          <div class="product-wrapper col-3">
+            <div class="product">
+              <a href="./product/product.html">
+                <img src="" alt="" class="product-img" />
+              </a>
+              <a href="./product/product.html" class="product-name">
+                <h4>Product Name</h4>
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </a>
+              <span class="product-price">Price</span>
+            </div>
+          </div>
+          <div class="product-wrapper col-3">
+            <div class="product">
+              <a href="./product/product.html">
+                <img src="" alt="" class="product-img" />
+              </a>
+              <a href="./product/product.html" class="product-name">
+                <h4>Product Name</h4>
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </a>
+              <span class="product-price">Price</span>
+            </div>
+          </div>
+          <div class="product-wrapper col-3">
+            <div class="product">
+              <a href="./product/product.html">
+                <img src="" alt="" class="product-img" />
+              </a>
+              <a href="./product/product.html" class="product-name">
+                <h4>Product Name</h4>
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </a>
+              <span class="product-price">Price</span>
+            </div>
+          </div>
+          <div class="product-wrapper col-3">
+            <div class="product">
+              <a href="./product/product.html">
+                <img src="" alt="" class="product-img" />
+              </a>
+              <a href="./product/product.html" class="product-name">
+                <h4>Product Name</h4>
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </a>
+              <span class="product-price">Price</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="tablet">
+        <h5 class="Sandbox">Sandbox Games</h5>
+        <div class="row">
+          <div class="product-wrapper col-3">
+            <div class="product">
+              <a href="./product/product.html">
+                <img src="" alt="" class="product-img" />
+              </a>
+              <a href="./product/product.html" class="product-name">
+                <h4>Product Name</h4>
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </a>
+              <span class="product-price">Price</span>
+            </div>
+          </div>
+          <div class="product-wrapper col-3">
+            <div class="product">
+              <a href="./product/product.html">
+                <img src="" alt="" class="product-img" />
+              </a>
+              <a href="./product/product.html" class="product-name">
+                <h4>Product Name</h4>
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </a>
+              <span class="product-price">Price</span>
+            </div>
+          </div>
+          <div class="product-wrapper col-3">
+            <div class="product">
+              <a href="./product/product.html">
+                <img src="" alt="" class="product-img" />
+              </a>
+              <a href="./product/product.html" class="product-name">
+                <h4>Product Name</h4>
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </a>
+              <span class="product-price">Price</span>
+            </div>
+          </div>
+          <div class="product-wrapper col-3">
+            <div class="product">
+              <a href="./product/product.html">
+                <img src="" alt="" class="product-img" />
+              </a>
+              <a href="./product/product.html" class="product-name">
+                <h4>Product Name</h4>
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </a>
+              <span class="product-price">Price</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="laptop">
+        <h5 class="Action">Action Games</h5>
+        <div class="row">
+          <div class="product-wrapper col-3">
+            <div class="product">
+              <a href="./product/product.html">
+                <img src="" alt="" class="product-img" />
+              </a>
+              <a href="./product/product.html" class="product-name">
+                <h4>Product Name</h4>
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </a>
+              <span class="product-price">Price</span>
+              <s class="old-price">Old Price</s>
+              <span class="discount">Discount Value</span>
+            </div>
+          </div>
+          <div class="product-wrapper col-3">
+            <div class="product">
+              <a href="./product/product.html">
+                <img src="" alt="" class="product-img" />
+              </a>
+              <a href="./product/product.html" class="product-name">
+                <h4>Product Name</h4>
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </a>
+              <span class="product-price">Price</span>
+              <s class="old-price">Old Price</s>
+              <span class="discount">Discount Value</span>
+            </div>
+          </div>
+          <div class="product-wrapper col-3">
+            <div class="product">
+              <a href="./product/product.html">
+                <img src="" alt="" class="product-img" />
+              </a>
+              <a href="./product/product.html" class="product-name">
+                <h4>Product Name</h4>
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </a>
+              <span class="product-price">Price </span>
+              <s class="old-price">Old Price </s>
+              <span class="discount">Discount Value</span>
+            </div>
+          </div>
+          <div class="product-wrapper col-3">
+            <div class="product">
+              <a href="./product/product.html">
+                <img src="" alt="" class="product-img" />
+              </a>
+              <a href="./product/product.html" class="product-name">
+                <h4>Product Name</h4>
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </a>
+              <span class="product-price">Price </span>
+              <s class="old-price">Old Price </s>
+              <span class="discount">Discount Value</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="follow">
+        <h4>FOLLOW SHOPGAME</h4>
+        <ul class="footer-icons">
+          <li class="footer-icon yt"><i class="fa-brands fa-youtube"></i></li>
+          <li class="footer-icon insta">
+            <i class="fa-brands fa-instagram"></i>
+          </li>
+          <li class="footer-icon fb"><i class="fa-brands fa-facebook"></i></li>
+          <li class="footer-icon x"><i class="fa-brands fa-x-twitter"></i></li>
+          <li class="footer-icon reddit">
+            <i class="fa-brands fa-reddit-alien"></i>
+          </li>
+        </ul>
+      </div>
+      <div class="info">
+        <a href="" class="info-item">Privacy and Cookies</a>
+        <a href="" class="info-item">Terms of use</a>
+        <a href="" class="info-item">Trademarks</a>
+        <a href="" class="info-item">About our ads</a>
+        <a href="" class="info-item">© 2023 Shopgame</a>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
 </html>

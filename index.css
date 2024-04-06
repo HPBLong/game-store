@@ -1,0 +1,160 @@
+p {
+  font-family: "Roboto Mono", monospace;
+}
+.my-slider {
+  height: 500px;
+}
+.main {
+  background-color: aliceblue;
+  padding: 50px 150px;
+}
+h5 {
+  text-align: center;
+}
+.product-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: all 0.2s;
+}
+.product-img:hover {
+  transform: scale(1.04);
+}
+.product {
+  background-color: white;
+  padding: 20px;
+  /* width: 300px; */
+  border-radius: 14px;
+}
+.product-price {
+  color: blue;
+}
+.old-price,
+.discount {
+  color: gray;
+}
+.product-wrapper {
+  padding: 8px;
+}
+.product-name {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+}
+.login {
+  margin-right: 5px;
+}
+.my-navbar {
+  background-color: #2ecc71 !important;
+}
+.navbar-brand {
+  color: white !important;
+}
+.dropdown-menu {
+  background-color: #27ae60;
+}
+.nav-link {
+  color: white !important;
+  border-radius: 5px;
+}
+.nav-link:hover {
+  background-color: #60e095;
+}
+.dropdown-item {
+  color: white !important;
+}
+.dropdown-item:hover {
+  color: black !important;
+}
+.main {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(39, 174, 96, 1) 20%,
+    rgba(149, 206, 172, 1) 80%,
+    rgba(149, 206, 172, 1) 100%
+  );
+}
+.FPS,
+.Sandbox,
+.Action {
+  color: white;
+  font-size: 30px;
+}
+.btn:hover {
+  background-color: #27ae60;
+  outline-color: #27ae60;
+  color: white;
+}
+.login {
+  padding: 10px;
+}
+.login:hover {
+  background-color: #60e095;
+  padding: 10px;
+  border-radius: 5px;
+}
+.fa-star {
+  color: rgb(240, 240, 64);
+}
+.description {
+  size: 25px !important;
+}
+.footer {
+  background-color: #2ecc71;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+.info {
+  text-decoration: none;
+  color: black;
+}
+.footer-icons {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+.footer-icon {
+  font-size: 25px;
+  margin: 0 10px;
+  padding: 0 10px;
+}
+.info-item {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+.footer-icon:hover {
+  background-color: #60e095;
+  border-radius: 5px;
+}
+.yt:hover {
+  color: rgb(250, 92, 92);
+  transition: all 0.5s;
+}
+.insta:hover {
+  color: pink;
+  transition: all 0.5s;
+}
+.fb:hover {
+  color: rgb(0, 0, 255);
+  transition: all 0.5s;
+}
+.reddit:hover {
+  color: orange !important;
+  transition: all 0.5s;
+}
+h4 {
+  margin-top: 10px;
+}
+.info-item:hover {
+  background-color: #60e095;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
