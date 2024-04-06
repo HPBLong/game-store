@@ -1,0 +1,76 @@
+.my-navbar {
+  background-color: #2ecc71 !important;
+}
+.navbar-brand {
+  color: white !important;
+}
+.nav-link {
+  color: white !important;
+  border-radius: 5px;
+}
+.nav-link:hover {
+  background-color: #60e095;
+}
+.dropdown-item {
+  color: white !important;
+}
+.dropdown-item:hover {
+  color: black !important;
+}
+.nav-link:hover {
+  background-color: #60e095;
+}
+.dropdown-menu {
+  background-color: #27ae60;
+}
+.login {
+  padding: 10px;
+  margin-right: 5px;
+}
+.footer-icon:hover {
+  background-color: #60e095;
+  border-radius: 5px;
+}
+.yt:hover {
+  color: rgb(250, 92, 92);
+  transition: all 0.5s;
+}
+.insta:hover {
+  color: pink;
+  transition: all 0.5s;
+}
+.fb:hover {
+  color: rgb(0, 0, 255);
+  transition: all 0.5s;
+}
+.reddit:hover {
+  color: orange;
+  transition: all 0.5s;
+}
+.footer-icons {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+.footer-icon {
+  font-size: 25px;
+  margin: 0 10px;
+  padding: 0 10px;
+}
+.footer {
+  background-color: #2ecc71;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 30px;
+}
+.info {
+  text-decoration: none;
+  color: black;
+}
+.info-item {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
